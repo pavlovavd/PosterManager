@@ -1,17 +1,9 @@
 package ru.netology.domain;
 
 public class MovieManager {
-    private Movie[] movies = new Movie[10];
+    private Movie[] movies = new Movie[0];
 
     public MovieManager(Movie[] movies) {
-        this.movies = movies;
-    }
-
-    public Movie[] getMovies() {
-        return movies;
-    }
-
-    public void setMovies(Movie[] movies) {
         this.movies = movies;
     }
 
